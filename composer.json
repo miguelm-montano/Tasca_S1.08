@@ -1,0 +1,29 @@
+{
+  "name": "miguelmontano/tasca_s1_08",
+  "authors": [
+    {
+      "name": "Miguel Montaño",
+      "email": "miiguel2m@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^12.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Exercise1\\": "Exercise1/src/",
+      "Exercise2\\": "Exercise2/src/",
+      "ExerciseN2_1\\": "ExerciseN2_1/src/",
+      "ExerciseN2_2\\": "ExerciseN2_2/src/",
+      "ExerciseN3\\": "ExerciseN3/src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Exercise2\\Tests\\": "Exercise2/tests/",
+      "ExerciseN2_1\\Tests\\": "ExerciseN2_1/tests/",
+      "ExerciseN2_2\\Tests\\": "ExerciseN2_2/tests/",
+      "ExerciseN3\\Tests\\": "ExerciseN3/tests/"
+    }
+  }
+}
